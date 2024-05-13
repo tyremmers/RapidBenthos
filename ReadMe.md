@@ -34,17 +34,17 @@ The full paper can be accessed at: \[[Paper]()].
 ## Quick Start
 1. To segment the orthomosaic and extract the points to classify in the undelying field photo, fill all the requiered fields in the RapidBenthos_part1.py:
 
-ortho =  #input path to orthomosaic
-out_folder = #input path to output folder
-plot_id = #input plot|site name
+    ```ortho =  #input path to orthomosaic```
+    ```out_folder = #input path to output folder```
+plot_id = #input plot|site name```
 
-dir_path = #input path to lib/python3.8/site-packages/osgeo_utils/
+    ```dir_path = #input path to lib/python3.8/site-packages/osgeo_utils/```
 
-MetashapeProject_path = #input path to Metashape project
-Chunk_number= #input chunk number
-PhotoPath = #input path to underlying photos repository
+    ```MetashapeProject_path = #input path to Metashape project```
+    ```Chunk_number= #input chunk number```
+    ```PhotoPath = #input path to underlying photos repository```
 
-Once all field are populated run RapidBenthos_part1.py.
+    ```Once all field are populated run RapidBenthos_part1.py.```
 
 
 2. To classify points from a csv (e.g. from the RapidBenthos_part1 outputs)
@@ -61,18 +61,18 @@ would classify the csv points and save the results in `results/SAM_points/`
 
 3. To classify the segments, Export communitly composition shapefile, extract percent cover, and export collony level segments fill all the requiered fields in the RapidBenthos_part3.py:
 
-RB_centroid_csv = #input path to RapidBenthos part 1 polygon center point csv (hexagrid_RB_union_path_pts_csv)
-RC_csv = #input path to ReefCloud annotation csv output
-label_file = #input path to label file
-polygon_file = #input path to RapidBenthos part 1 polygon shapefile (hexagrid_RB_union_path_seg_shp)
-label_poygon_seg = #input path to RapidBenthos labeled polygon output shapefile
-label_poygon_csv = #input path to RapidBenthos labeled polygon output CSV
+    ```RB_centroid_csv = #input path to RapidBenthos part 1 polygon center point csv (hexagrid_RB_union_path_pts_csv)```
+    ```RC_csv = #input path to ReefCloud annotation csv output```
+    ```label_file = #input path to label file```
+    ```polygon_file = #input path to RapidBenthos part 1 polygon shapefile (hexagrid_RB_union_path_seg_shp)```
+    ```label_poygon_seg = #input path to RapidBenthos labeled polygon output shapefile```
+    ```label_poygon_csv = #input path to RapidBenthos labeled polygon output CSV```
 
-PercentCover = #input path to RapidBenthos percent cover csv
+    ```PercentCover = #input path to RapidBenthos percent cover csv```
 
-out_fig = #input path to community composition stacked bar graph
+    ```out_fig = #input path to community composition stacked bar graph```
 
-ColonyLevelSegments_shp = #input path to RapidBenthos colony level segments shapefile
+    ```ColonyLevelSegments_shp = #input path to RapidBenthos colony level segments shapefile```
 
 
 <a name="acknowledgements"></a>
