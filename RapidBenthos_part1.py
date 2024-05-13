@@ -54,7 +54,6 @@ sam_kwargs = {
     'box_nms_thresh':  0.35,
     'crop_n_layers': 0,
     'crop_nms_thresh': 0.9,
-    #'crop_overlap_ratio': 1500 / 1500,
     'crop_n_points_downscale_factor': 1,
     'min_mask_region_area': 1600,}
 
@@ -84,7 +83,6 @@ sam_kwargs = {
     'box_nms_thresh':  0.35,
     'crop_n_layers': 0,
     'crop_nms_thresh': 0.9,
-    #'crop_overlap_ratio': 1500 / 1500,
     'crop_n_points_downscale_factor': 1,
     'min_mask_region_area': 1600,}
 
