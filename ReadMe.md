@@ -1,4 +1,4 @@
-The official repository for the paper: "RapidBenthos – Automated segmentation and multi-view classification of coral reef communities from photogrammetric reconstruction". Code coming soon!
+The official repository for the paper: "RapidBenthos – Automated segmentation and multi-view classification of coral reef communities from photogrammetric reconstruction".
 
 If this repository contributes to your research, please consider citing the publication below.
 
@@ -12,7 +12,7 @@ insert bibtex here
 
 ```
 
-The full paper can be accessed at: \[[Paper]()].
+The full paper can be accessed at: \[[Paper]()]. Manuscript in revision!
 
 ## Table of Contents
 - [Installation](#installation)
