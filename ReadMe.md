@@ -48,7 +48,7 @@ The full paper can be accessed at: \[[Paper]()].
 
     ```PhotoPath = #input path to underlying photos repository```
 
-    ```Once all field are populated run RapidBenthos_part1.py.```
+   Once all field are populated run RapidBenthos_part1.py.
 
 
 3. To classify points from a csv (e.g. from the RapidBenthos_part1 outputs)
@@ -83,6 +83,7 @@ would classify the csv points and save the results in `results/SAM_points/`
 
     ```ColonyLevelSegments_shp = #input path to RapidBenthos colony level segments shapefile```
 
+    Once all field are populated run RapidBenthos_part3.py.
 
 <a name="acknowledgements"></a>
 ## Acknowledgements
