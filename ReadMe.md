@@ -30,6 +30,10 @@ The full paper can be accessed at: \[[Paper]()]. Manuscript in revision!
 
     ```https://github.com/opengeos/segment-geospatial.git```
 
+3. Download the dense_inference github repository and save it inside the root directory of the project:
+
+    ```https://github.com/open-AIMS/dense_inference.git```
+
 <a name="quick-start"></a>
 ## Quick Start
 1. To segment the orthomosaic and extract the points to classify in the undelying field photo, fill all the requiered fields in the RapidBenthos_part1.py:
