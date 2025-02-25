@@ -317,7 +317,7 @@ def camera_point_from_segment_centerPoint(MetashapeProject_path, Chunk_number, P
     
     out_df_list = []
     # loop though each SAM centroid
-    for index, row in tqdm(RB_centroid.iterrows(), total = SAM_centroid.shape[0]):
+    for index, row in tqdm(RB_centroid.iterrows(), total = RB_centroid.shape[0]):
 
         samID=row.segment_un
 
