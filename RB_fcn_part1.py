@@ -55,6 +55,12 @@ def Filter_segments(Segment_gpkg, output_segments_shp_path, output_pts_shp_path,
     #calculate area
     segment_df_all['area'] = segment_df_all.area
 
+    #apply plobsy-popper test (pp)
+    segment_df_all["length"] = segment_df_all.length
+    segment_df_all["pp"] = segment_df_all.apply(lambda x: ((x["area"] * (4*(math.pi))) / (x["length"]**2)) , axis=1)
+    segment_df_all = segment_df_all[(segment_df_all["area"] >= 0.005) | ((segment_df_all["area"].between(0.0025, 0.005, inclusive="neither")) & (segment_df_all['pp'] >= 0.25))| ((segment_df_all["area"].between(0.0005, 0.0025)) & (segment_df_all['pp'] >= 0.3))]
+
+
     #add unique segemnt ID column and drop Value
     segment_df_all['segment_un']= segment_df_all.index
     segments_df_filtered = segment_df_all.drop(columns = ['value'])
