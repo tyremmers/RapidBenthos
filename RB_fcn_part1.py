@@ -261,8 +261,7 @@ class CameraStats():
 #%% point_from_RB_centroid_no_filter
 
 def camera_point_from_segment_centerPoint(MetashapeProject_path, Chunk_number, PhotoPath, OutputPath, CenterPoint_path):
-    os.chdir(r"/net/cluster1-prod-hpcnfs.aims.gov.au/3d-ltmp/EcoRRAP/")
-
+    
     # open metashape project
     doc = Metashape.Document()
     doc.open(MetashapeProject_path)
