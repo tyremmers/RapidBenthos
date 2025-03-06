@@ -277,7 +277,6 @@ def camera_point_from_segment_centerPoint(MetashapeProject_path, Chunk_number, P
     T = chunk.transform.matrix
     crs = chunk.crs
 
-    os.chdir(r"/export/home/q-z/tremmers/RapidBenthos/")
     # open RB_centroid csv and read as dataframe
     RB_centroid = pd.read_csv(CenterPoint_path)
 
